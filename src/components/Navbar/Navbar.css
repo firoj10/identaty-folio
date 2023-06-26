@@ -1,0 +1,12 @@
+@media (max-width: 1440px) {
+    .navbar {
+     width: 100%;
+    
+    
+    }
+    .navbardiv{
+        justify-content: space-between;
+        margin: auto;
+    }
+  
+  }
