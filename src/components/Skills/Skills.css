@@ -36,13 +36,12 @@
 }
 
 .skill--box {
-  /* background: #fafafa; */
    box-shadow:  rgb(29, 155, 240) 0px 0px 12px;
-  /* box-shadow: 0px 10px 30px rgba(84, 59, 231, 0.12); */
+
   
   border-radius: 10px;
-  width: 160px;
-  height: 160px;
+  width: 150px;
+  height: 150px;
   margin: 1.5rem;
   display: flex;
   flex-direction: column;

@@ -14,7 +14,7 @@ const Education = () => {
         },
     }
     return (
-        <div className="max-w-[1280px] mx-auto" id='education'>
+        <div className="" id='education'>
             <h1 className="text-center text-4xl py-14 mt-20 text-blue-500"> Education</h1>
             <div className="md:flex gap-10">
                 <div className="md:w-5/12">

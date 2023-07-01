@@ -67,7 +67,7 @@ const Blog = () => {
       }
 
     return (
-        <div className='max-w-[1280px] mx-auto' id='blog'>
+        <div className='' id='blog'>
        <>
     <div className=' py-20'>
         <h2 className='text-4xl text-center  py-14 mt-20 text-blue-500 font-bold'>Blog</h2>

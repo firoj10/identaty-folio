@@ -29,7 +29,7 @@ function Skills() {
     ]
     
     return (
-        <div className="skills xl:w-[1800px] mx-auto" id="skills" >
+        <div className="skills" id="skills" >
             <div className="skillsHeader">
                 <h2 className="text-blue-500 ">Skills</h2>
             </div>

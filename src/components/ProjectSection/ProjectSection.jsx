@@ -69,8 +69,8 @@ const ProjectSection = () => {
   };
 
   return (
-    <div className='max-w-[1280px] mx-auto' id='project'>
-    <div className='text-center py-20 max-w-[1280px] mx-auto'>
+    <div className='' id='project'>
+    <div className='text-center py-20'>
         <h2 className='text-4xl text-blue-500 font-bold'>Projects</h2>
     </div>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">

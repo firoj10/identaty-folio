@@ -11,7 +11,7 @@ const Experience = () => {
     },
   }
   return (
-    <div className="max-w-[1280px] mx-auto" id="experience">
+    <div className="" id="experience">
     <h1 className="text-center text-4xl py-14 mt-20 text-blue-500"> Experience</h1>
     <div className="md:flex  ">
       <div className="md:w-5/12">
