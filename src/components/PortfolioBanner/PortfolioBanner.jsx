@@ -1,5 +1,3 @@
-
-
 import img from './../../assets/22.png';
 import { Typewriter } from 'react-simple-typewriter';
 
@@ -30,11 +28,9 @@ const PortfolioBanner = () => {
           self-learning attitude. I love to learn and explore new technologies and am passionate about problem solving.
         </p>
 
-        <div className="flex m-5">
+        <div className="  m-5">
 
-      {/* <div id='contact' to='/#contact'>
-      <button   className="btn btn-outline text-blue-500  text-bold m-2">Contact us</button>
-      </div> */}
+     
           <button > <a
           className="btn btn-outline text-blue-500  text-bold m-2"
             href='https://drive.google.com/file/d/1Reu9vvqW0YaGDBHjU8NVZrtg6Pb08Pk7/view?usp=sharing'
@@ -45,19 +41,6 @@ const PortfolioBanner = () => {
            Download Resume
           </a></button>
          
-         
-          {/* <a
-            href='https://docs.google.com/document/d/1OmxnrxHbrfQkL7e3BG40HgSmYCWzNSxo9Wa-kOPVPSc/edit?usp=sharing'
-            download='resume'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <Button className='btn btn-outline text-blue-500 text-bolder m-2'>
-              Download CV
-            </Button>
-          </a> */}
-
-
         </div>
       </div>
       <div className="flex-1">

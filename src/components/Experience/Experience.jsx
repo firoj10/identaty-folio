@@ -27,8 +27,8 @@ const Experience = () => {
                         </div>
                         <div className=" text-left  md:ps-10">
                             <p className="text-lg">Jan 2022-Present</p>
-                            <h3 className="text-xl">Full-Stack Developer</h3>
-                            <h4 className="text-xl">Fiverr (freelance)</h4>
+                            <h3 className="text-xl">React Developer</h3>
+                            <h4 className="text-xl">Programming Hero</h4>
                         </div>
                     </div>
                     <div className=" flex items-center border bg-slate-200 text-blue-500  p-5 m-3 ">
@@ -38,9 +38,9 @@ const Experience = () => {
                             </div>
                         </div>
                         <div className=" text-left  md:ps-10">
-                            <p className="text-lg">Jan 2022-Present</p>
+                            <p className="text-lg">Jan 2022</p>
                             <h3 className="text-xl">Full-Stack Developer</h3>
-                            <h4 className="text-xl">Fiverr (freelance)</h4>
+                            <h4 className="text-xl">Colleg (freelance)</h4>
                         </div>
                     </div>
                     <div className=" flex items-center border bg-slate-200 text-blue-500  p-5  m-3">

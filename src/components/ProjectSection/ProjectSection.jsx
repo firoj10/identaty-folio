@@ -1,5 +1,10 @@
 import { useState } from 'react';
-import img from './../../assets/png/placeholder.png';
+import img1 from './../../assets/svg/projects/eight.svg';
+import img2 from './../../assets/svg/projects/eleven.svg';
+import img3 from './../../assets/svg/projects/seven.svg';
+import img4 from './../../assets/svg/projects/six.svg';
+import img5 from './../../assets/svg/projects/five.svg';
+import img6 from './../../assets/svg/projects/four.svg';
 import { FiArrowRight, } from 'react-icons/fi';
 
 const ProjectSection = () => {
@@ -11,7 +16,7 @@ const ProjectSection = () => {
       tags: ['React', 'SAAS', 'React Bootstrap'],
       code: 'https://github.com/firoj10/clone-bistro-boss',
       demo: 'https://www.aylanetworks.com/',
-      image: img
+      image: img1
     },
     {
       id: 1,
@@ -20,7 +25,7 @@ const ProjectSection = () => {
       tags: ['React', 'SAAS', 'React Bootstrap'],
       code: 'https://github.com/firoj10/clone-bistro-boss',
       demo: 'https://www.aylanetworks.com/',
-      image: img
+      image: img2
     },
     {
       id: 1,
@@ -29,7 +34,7 @@ const ProjectSection = () => {
       tags: ['React', 'SAAS', 'React Bootstrap'],
       code: 'https://github.com/firoj10/clone-bistro-boss',
       demo: 'https://www.aylanetworks.com/',
-      image: img
+      image: img3
     },
     {
       id: 1,
@@ -38,7 +43,7 @@ const ProjectSection = () => {
       tags: ['React', 'SAAS', 'React Bootstrap'],
       code: 'https://github.com/firoj10/clone-bistro-boss',
       demo: 'https://www.aylanetworks.com/',
-      image: img
+      image: img4
     },
     {
       id: 1,
@@ -47,7 +52,7 @@ const ProjectSection = () => {
       tags: ['React', 'SAAS', 'React Bootstrap'],
       code: 'https://github.com/firoj10/clone-bistro-boss',
       demo: 'https://www.aylanetworks.com/',
-      image: img
+      image: img5
     },
     {
       id: 1,
@@ -56,7 +61,7 @@ const ProjectSection = () => {
       tags: ['React', 'SAAS', 'React Bootstrap'],
       code: 'https://github.com/firoj10/clone-bistro-boss',
       demo: 'https://www.aylanetworks.com/',
-      image: img
+      image: img6
     },
     // Rest of the project data
   ];
@@ -76,7 +81,7 @@ const ProjectSection = () => {
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
       {projectsToShow.map((project) => (
         <div key={project.id} className="bg-white rounded shadow">
-          <img src={project.image || img} alt="Project" className="h-48 w-full object-cover rounded-t" />
+          <img src={project.image || img1} alt="Project" className="h-48 w-full object-cover rounded-t" />
           <div className="p-4">
             <h3 className="text-lg font-bold mb-2">{project.projectName}</h3>
             <p className="text-gray-600 mb-4">{project.projectDesc}</p>

@@ -1,20 +1,11 @@
-// import animaction from './../../../public/message.json';
-// import Lottie from 'react-lottie';
 import { FaFacebook, FaGithub, FaLinkedinIn, FaMediumM, FaStackOverflow, FaTwitter, } from 'react-icons/fa';
 import { FiAtSign, FiPhone } from 'react-icons/fi';
 
 const Contact = () => {
-  // const animationOptions = {
-  //   loop: true,
-  //   autoplay: true,
-  //   animationData: animaction,
-  //   rendererSettings: {
-  //     preserveAspectRatio: 'xMidYMid slice',
-  //   },
-  // };
+
 
   return (
-    <div className=' ' id='contact'>
+    <div className='py-9 ' id='contact'>
       <h1 className="text-center text-4xl py-14 mt-20 text-blue-500 justify-end "> Contact</h1>
       <div className='   lg:flex items-center'>
         {/* <div className='grid grid-cols-1 md:grid-cols-2  '> */}
