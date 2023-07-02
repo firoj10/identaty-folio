@@ -75,7 +75,7 @@ const Contact = () => {
               <label className='label'>
                 <span className='label-text  py-2 text-[20px] text-blue-500'>Message</span>
               </label>
-              <textarea id="textarea" placeholder='Message' className="textarea input  border-blue-500 border-4" rows="7" cols="50"></textarea>
+              <textarea id="textarea" placeholder='Message' className="textarea   border-blue-500 border-4" rows="4" cols="10"></textarea>
 
             </div>
             <div className=' mt-6'>

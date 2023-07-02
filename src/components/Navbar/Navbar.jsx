@@ -190,19 +190,3 @@ export default Navbar;
 
 
 
-// {
-//   path: "/education",
-//   element: <Education></Education>
-// },
-// {
-//   path: "/project",
-//   element: <ProjectSection></ProjectSection>
-// },
-// {
-//   path: "/blog",
-//   element: <Blog></Blog>
-// },
-// {
-//   path: "/contact",
-//   element: <Contact></Contact>
-// },

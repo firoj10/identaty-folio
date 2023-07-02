@@ -1,63 +1,58 @@
 
 import { FiArrowRight } from 'react-icons/fi';
-import img from './../../assets/png/placeholder.png'
 
+import { motion } from 'framer-motion';
 import { useState } from 'react';
+import box from './../../assets/png/placeholder.png'
+import html from './../../assets/png/1.jpg'
+import css from './../../assets/png/css.jpg'
+import javascript from './../../assets/png/javascript.jpg'
+import bootstrap from './../../assets/png/bootstrap.jpg'
+import tailwind from './../../assets/png/tailwind.jpg'
 const Blog = () => {
     const projectsData = [
         {
             id: 1,
-            projectName: 'Ayla Networks',
-            projectDesc: 'This project about Simplifying the Development of Smart Home & IoT Solutions.',
+            title: 'What Is HTML?',
+            projectDesc: 'HTML stands for HyperText Markup Language, which can be a confusing term for many beginners yperText Markup Language.',
             date: 'Aug 11, 2020',
-            code: 'https://github.com/firoj10/clone-bistro-boss',
-            demo: 'https://www.aylanetworks.com/',
-            image: 'https://1.bp.blogspot.com/-XTVMsZP3HaM/Xxpl394txlI/AAAAAAAABws/zovXWiuNGg4TzBwYYVFfJ1ixDb3JfVokgCNcBGAsYHQ/w400-h195/speedtest.png',
+            image: html
           },
           {
             id: 1,
-            title: 'GET MICHAEL\'S OR TREVOR\'S VEHICLES FULLY UPGRADED IN GTA V FOR FREE',
-            projectDesc: 'This project about Simplifying the Development of Smart Home & IoT Solutions.',
+            title: 'What Is JavaScript?',
+            projectDesc: 'JavaScript is used by almost every website on the internet, so I embarked on a quest to find the  JavaScript blogs. JavaScript blogs',
             date: 'Aug 11, 2020',
-            code: 'https://github.com/firoj10/clone-bistro-boss',
-            demo: 'https://www.aylanetworks.com/',
-            image: 'https://1.bp.blogspot.com/-jhdtUBIRD_s/XxLFKQuRz9I/AAAAAAAABsM/mClfbfDFKvsUwA7Wyi25Lzu3DEmL2lxrACNcBGAsYHQ/s1919/gta.jpg',
+            image: javascript
           },
           {
             id: 1,
-            title: 'CHECK INTERNET SPEED FROM THE COMMAND LINE',
-            projectDesc: 'This project about Simplifying the Development of Smart Home & IoT Solutions.',
+            title: 'Is React good for a blogging site',
+            projectDesc: 'React is a great framework for creating blogs because it is SEO-friendly. SEO  is a very important and critical factor to consider ',
             date: 'Aug 11, 2020',
-            code: 'https://github.com/firoj10/clone-bistro-boss',
-            demo: 'https://www.aylanetworks.com/',
-            image: 'https://1.bp.blogspot.com/-OW7jX57tea4/XvnGxuEOslI/AAAAAAAABW0/R8lVT1AXDSwnvE0EGA9Ra49-LDm1ACwDgCK4BGAsYHg/s1216/wttr1.png',
+            image: box
           },
           {
             id: 1,
-            title: 'SCRAPING BILLBOARD AND IMDB USING PYTHON SELENIUM',
-            projectDesc: 'This project about Simplifying the Development of Smart Home & IoT Solutions.',
+            title: 'Is Tailwind faster than CSS?',
+            projectDesc: ' Tailwind is a modern CSS framework that offers several advantages over traditional CSS. Its ut  make styling HTML components faster, ',
             date: 'Aug 11, 2020',
-            code: 'https://github.com/firoj10/clone-bistro-boss',
-            demo: 'https://www.aylanetworks.com/',
-            image: 'https://1.bp.blogspot.com/-XTVMsZP3HaM/Xxpl394txlI/AAAAAAAABws/zovXWiuNGg4TzBwYYVFfJ1ixDb3JfVokgCNcBGAsYHQ/w400-h195/speedtest.png',
+            image: tailwind
           },
           {
             id: 1,
-            title: 'CHECK WEATHER FROM TERMINAL USING WTTR.IN',
-            projectDesc: 'This project about Simplifying the Development of Smart Home & IoT Solutions.',
+            title: 'Is Bootstrap JS or CSS?',
+            projectDesc: 'Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites mobile-first websites',
             date: 'Aug 11, 2020',
-            code: 'https://github.com/firoj10/clone-bistro-boss',
-            demo: 'https://www.aylanetworks.com/',
-            image: 'https://1.bp.blogspot.com/-jhdtUBIRD_s/XxLFKQuRz9I/AAAAAAAABsM/mClfbfDFKvsUwA7Wyi25Lzu3DEmL2lxrACNcBGAsYHQ/s1919/gta.jpg',
+            image: bootstrap
+           
           },
           {
             id: 1,
-            title: 'BEING ANONYMOUS: A BEGINNERS GUIDE',
-            projectDesc: 'This project about Simplifying the Development of Smart Home & IoT Solutions.',
+            title: 'What is grid in Tailwind?',
+            projectDesc: 'What is Tailwind Grid System​ Unlike Twitter s Bootstrap and Foundation, that still use flexbox to implement their 12 column layout under the hood,.',
             date: 'Aug 11, 2020',
-            code: 'https://github.com/firoj10/clone-bistro-boss',
-            demo: 'https://www.aylanetworks.com/',
-            image: img
+            image: css
           },
       ];
       const [showAll ,setShowAll]= useState(false)
@@ -72,8 +67,17 @@ const Blog = () => {
     <div className=' py-20'>
         <h2 className='text-4xl text-center  py-14 mt-20 text-blue-500 font-bold'>Blog</h2>
     </div>
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-start">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-start">
       {projectsToShow.map((project) => (
+        <motion.div
+        key={project.id}
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }}
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
+        className="cardd"
+      >
         <div key={project.id} className="bg-white rounded shadow">
           <img src={project.image || img} alt="Project" className="h-48 w-full object-cover rounded-t" />
           <div className="p-4">
@@ -84,6 +88,7 @@ const Blog = () => {
           </div>
           
         </div>
+        </motion.div>
       ))}
     
     </div>
