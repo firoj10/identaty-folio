@@ -1,8 +1,8 @@
-import { FaFacebook, FaGithub, FaLinkedinIn, FaMediumM, FaStackOverflow, FaTwitter, } from 'react-icons/fa';
-import { FiAtSign, FiPhone } from 'react-icons/fi';
+import { FaAddressBook, FaFacebook, FaGithub, FaLinkedinIn, FaLocationArrow, FaMediumM, FaStackOverflow, FaTwitter, FaWhatsapp, } from 'react-icons/fa';
+import { FiAtSign, FiPhone, FiVoicemail } from 'react-icons/fi';
 
 const Contact = () => {
-
+  https://www.linkedin.com/in/md-firoj-hasan-251014280/
 
   return (
     <div className='py-9 ' id='contact'>
@@ -11,32 +11,42 @@ const Contact = () => {
         {/* <div className='grid grid-cols-1 md:grid-cols-2  '> */}
         <div className='flex-1 md:mt-[143px] pr-10  lg:text-centar'>
           <div className='pb-[40px]'>
-            <div className='flex items-center  my-5  rounded-lg'>
-              <FiAtSign
-                className='social-icon rounded-lg mx-3 '
-                style={{ width: '40px', height: '40px', color: '#ffffff', padding: '10px', backgroundColor: '#1877f2' }} /> <span>mdfiroj.info@gmail.com</span>
 
-            </div>
-            <div className='flex items-center  my-5  rounded-lg'>
-              <FiAtSign
-                className='social-icon rounded-lg mx-3 '
-                style={{ width: '40px', height: '40px', color: '#ffffff', padding: '10px', backgroundColor: '#1877f2' }} />
-              <span>mdfiroj.info@gmail.com</span>
-            </div>
             <div className='flex items-center   my-5 rounded-lg'>
               <FiPhone
                 className='social-icon rounded-lg mx-3 '
                 style={{ width: '40px', height: '40px', color: '#ffffff', padding: '10px', backgroundColor: '#1877f2' }} />
-              <span className='px-2'>mdfiroj.info@gmail.com</span>
+              <span className='px-2'>+8801704296487</span>
+            </div>
+            <div className='flex items-center   my-5 rounded-lg'>
+              <FiAtSign
+                className='social-icon rounded-lg mx-3 '
+                style={{ width: '40px', height: '40px', color: '#ffffff', padding: '10px', backgroundColor: '#1877f2' }} />
+              <span className='px-2'>mdfirojhasan.info@gmail.com</span>
             </div>
 
+            <div className='flex items-center  my-5  rounded-lg'>
+              <FaWhatsapp
+                className='social-icon rounded-lg mx-3 '
+                style={{ width: '40px', height: '40px', color: '#ffffff', padding: '10px', backgroundColor: '#1877f2' }} />
+              <span>+8801798554947</span>
+            </div>
+            <div className='flex items-center  my-5  rounded-lg'>
+              <FaLocationArrow
+                className='social-icon rounded-lg mx-3 '
+                style={{ width: '40px', height: '40px', color: '#ffffff', padding: '10px', backgroundColor: '#1877f2' }} />
+              <span>Haripur, Thakurgaon, Bangladesh</span>
+
+            </div>
 
           </div>
           <div className='flex text-center '>
 
-            <FaTwitter aria-label='Twitter'
+
+
+            <a href="https://www.linkedin.com/in/md-firoj-hasan-251014280/"> <FaLinkedinIn aria-label='Linkedin'
               className='social-icon rounded-lg mx-1 lg:mx-3 '
-              style={{ width: '40px', height: '40px', color: '#ffffff', padding: '10px', backgroundColor: '#1877f2' }} />
+              style={{ width: '40px', height: '40px', color: '#ffffff', padding: '10px', backgroundColor: '#1877f2' }} /></a>
             <FaGithub aria-label='GitHub'
               className='social-icon rounded-lg mx-1 lg:mx-3'
               style={{ width: '40px', height: '40px', color: '#ffffff', padding: '10px', backgroundColor: '#1877f2' }} />
@@ -50,9 +60,7 @@ const Contact = () => {
             <FaFacebook aria-label='facebook'
               className='social-icon rounded-lg mx-1 lg:mx-3'
               style={{ width: '40px', height: '40px', color: '#ffffff', padding: '10px', backgroundColor: '#1877f2' }} />
-            <FaStackOverflow aria-label='Stack Overflow'
-              className='social-icon rounded-lg mx-1 lg:mx-3'
-              style={{ width: '40px', height: '40px', color: '#ffffff', padding: '5px', backgroundColor: '#1877f2' }} />
+            
           </div>
         </div>
 
@@ -84,7 +92,7 @@ const Contact = () => {
           </div>
         </div>
 
-       
+
 
       </div>
     </div>

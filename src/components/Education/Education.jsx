@@ -14,14 +14,14 @@ const Education = () => {
         },
     }
     return (
-        <div className="" id='education'>
+        <div className="my-20" id='education '>
           
             <motion.h1
                  initial={{ opacity: 0, y: -50 }}
                  animate={{ opacity: 1, y: 0 }}
                  transition={{ duration: 2 }}
               >
-                  <h1 className="text-center text-4xl py-14 mt-20 text-blue-500"> Education</h1>
+                  <h1 className="text-center text-4xl py-14 mt-20 text-blue-500 md:my-20"> Education</h1>
 
               </motion.h1>
             <div className="md:flex gap-10">
@@ -31,7 +31,7 @@ const Education = () => {
                 <div className='md:w-7/12'>
                 <div className=" flex items-center border bg-slate-200 text-blue-500  hover:bg-blue-500 outline-0   hover:text-white  p-5 m-3 rounded-md ">
                         <div className="">
-                            <div className="rounded-[50%] w-[55px] h-[55px] text-slate-200 bg-blue-500 flex    items-center justify-center">
+                            <div className="rounded-[50%] w-[55px] h-[55px] text-slate-200 bg-blue-500 flex me-2    items-center justify-center">
                                 <img src={img} alt="" className="w-[40px]" />
                             </div>
                         </div>
@@ -43,7 +43,7 @@ const Education = () => {
                     </div>
                 <div className=" flex items-center border bg-slate-200 text-blue-500  hover:bg-blue-500 outline-0   hover:text-white  p-5 m-3 rounded-md ">
                         <div className="">
-                            <div className="rounded-[50%] w-[55px] h-[55px] text-slate-200 bg-blue-500 flex    items-center justify-center">
+                            <div className="rounded-[50%] w-[55px] h-[55px] text-slate-200 bg-blue-500 flex me-2    items-center justify-center">
                                 <img src={img} alt="" className="w-[40px]" />
                             </div>
                         </div>
@@ -55,7 +55,7 @@ const Education = () => {
                     </div>
                 <div className=" flex items-center border bg-slate-200 text-blue-500  hover:bg-blue-500 outline-0   hover:text-white  p-5 m-3 rounded-md ">
                         <div className="">
-                            <div className="rounded-[50%] w-[55px] h-[55px] text-slate-200 bg-blue-500 flex    items-center justify-center">
+                            <div className="rounded-[50%] w-[55px] h-[55px] text-slate-200 bg-blue-500 flex  me-2   items-center justify-center">
                                 <img src={img} alt="" className="w-[40px]" />
                             </div>
                         </div>

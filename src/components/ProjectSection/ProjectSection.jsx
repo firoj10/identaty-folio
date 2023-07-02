@@ -71,7 +71,7 @@ const ProjectSection = () => {
   };
 
   return (
-    <div className='' id='project'>
+    <div className='' id='project '>
       <div className='text-center py-20'>
         <h2 className='text-4xl text-blue-500 font-bold'>Projects</h2>
       </div>

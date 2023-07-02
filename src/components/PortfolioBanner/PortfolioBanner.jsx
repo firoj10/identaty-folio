@@ -5,7 +5,7 @@ const PortfolioBanner = () => {
 
 
   return (
-    <div className="md:flex items-center md:pt-[200px]  px-2">
+    <div className="md:flex items-center md:pt-[200px]  py-10 px-2">
       <div className="flex-1 text-left">
         <h1 className="text-4xl font-bold pt-3 ">MD Firoj Hasan</h1>
 
@@ -32,7 +32,7 @@ const PortfolioBanner = () => {
 
      
           <button > <a
-          className="btn btn-outline text-blue-500  text-bold m-2"
+          className="btn btn-outline text-blue-500 md:text-[20px] text-bold m-2"
             href='https://drive.google.com/file/d/1Reu9vvqW0YaGDBHjU8NVZrtg6Pb08Pk7/view?usp=sharing'
             download='resume'
             target='_blank'
