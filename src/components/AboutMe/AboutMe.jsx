@@ -14,7 +14,7 @@ const AboutMe = () => {
   };
 
   return (
-   <div className="md:pt-[200px]  " id='about'>
+   <div className="md:pt-[200px] pt-[100px]  " id='about'>
       <div className="relative">
         <hr
           className="absolute left-0 w-full border-t-2 border-gray-300"

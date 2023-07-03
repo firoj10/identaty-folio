@@ -71,9 +71,18 @@ const ProjectSection = () => {
   };
 
   return (
-    <div className='' id='project '>
+    <div className='' id='project'>
       <div className='text-center py-20'>
-        <h2 className='text-4xl text-blue-500 font-bold'>Projects</h2>
+   
+        <motion.h1
+                 initial={{ opacity: 0, y: -50 }}
+                 animate={{ opacity: 1, y: 0 }}
+                 whileHover={{ scale: 1.2, fontStyle: 'italic',  }}
+                 transition={{ duration: 1 }}
+                
+              >
+                     <h2 className='text-4xl text-blue-500 font-bold'>Projects</h2>
+              </motion.h1>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 cardd">
         {projectsToShow.map((project) => (

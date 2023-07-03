@@ -1,7 +1,7 @@
 import Marquee from "react-fast-marquee";
 import './Skills.css';
 import { skillsImage } from '../../utils/skillsImage';
-
+import { motion } from 'framer-motion';
 function Skills() {
     const skillBoxStyle = {
         backgroundColor: 'dark',
@@ -31,7 +31,16 @@ function Skills() {
     return (
         <div className="skills" id="skills" >
             <div className="skillsHeader">
-                <h2 className="text-blue-500 ">Skills</h2>
+            
+                <motion.h1
+                 initial={{ opacity: 0, y: -50 }}
+                 animate={{ opacity: 1, y: 0 }}
+                 whileHover={{ scale: 1.2, fontStyle: 'italic',  }}
+                 transition={{ duration: 1 }}
+                
+              >
+                                    <h1 className='text-4xl text-center  py-14 mt-20 text-blue-500 font-bold'>Skills</h1>
+              </motion.h1>
             </div>
             <div className="skillsContainer">
                 <div className="skill--scroll">

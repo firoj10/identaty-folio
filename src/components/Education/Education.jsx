@@ -14,14 +14,16 @@ const Education = () => {
         },
     }
     return (
-        <div className="my-20" id='education '>
+        <div className="my-20" id='education'>
           
             <motion.h1
                  initial={{ opacity: 0, y: -50 }}
                  animate={{ opacity: 1, y: 0 }}
-                 transition={{ duration: 6 }}
+                 whileHover={{ scale: 1.2, fontStyle: 'italic',  }}
+                 transition={{ duration: 1 }}
+                
               >
-                  <h1 className="text-center text-4xl py-14 mt-20 text-blue-500 md:my-20"> Education</h1>
+                  <h1 className="text-center text-4xl font-bold py-14 mt-20 text-blue-500 md:my-20"> Education</h1>
 
               </motion.h1>
             <div className="md:flex gap-10">

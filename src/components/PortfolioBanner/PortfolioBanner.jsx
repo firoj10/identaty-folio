@@ -1,24 +1,22 @@
 import img from './../../assets/55.png';
-// import resume from './../../assets/';
 import { Typewriter } from 'react-simple-typewriter';
-
+import { motion } from 'framer-motion';
 const PortfolioBanner = () => {
-  // const handleDownload = () => {
-  //   const element = document.createElement('a');
-  //   const resumeUrl = 'https://drive.google.com/file/d/1Reu9vvqW0YaGDBHjU8NVZrtg6Pb08Pk7/view?usp=sharing'; // Replace with the actual path to your resume file
-  //   element.setAttribute('href', resumeUrl);
-  //   element.setAttribute('download', 'firoj-resume.pdf'); // Replace with the desired filename for your resume
-
-  //   element.style.display = 'none';
-  //   document.body.appendChild(element);
-  //   element.click();
-  //   document.body.removeChild(element);
-  // };
 
   return (
     <div className="md:flex items-center md:pt-[200px]  py-10 px-2">
       <div className="flex-1 text-left">
-        <h1 className="text-4xl font-bold pt-3 ">MD Firoj Hasan</h1>
+     
+        
+        <motion.h1
+                 initial={{ opacity: 0, y: -5 }}
+                 animate={{ opacity: 1, y: 0 }}
+                 whileHover={{ scale: 1, fontStyle: 'italic',  }}
+                 transition={{ duration: 1 }}
+                
+              >
+                                       <h1 className="text-4xl font-bold pt-3 ">MD Firoj Hasan</h1>
+              </motion.h1>
 
 
         <h1 className="text-2xl font-bold pt-3 text-blue-500 ">

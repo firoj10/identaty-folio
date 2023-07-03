@@ -9,7 +9,6 @@ import {
 } from "react-router-dom";
 import Blog from './components/Blog/Blog.jsx';
 import AboutMe from './components/AboutMe/AboutMe.jsx';
-import PortfolioBanner from './components/PortfolioBanner/PortfolioBanner.jsx';
 import Experience from './components/Experience/Experience.jsx';
 import Education from './components/Education/Education.jsx';
 import ProjectSection from './components/ProjectSection/ProjectSection.jsx';

@@ -13,7 +13,18 @@ const Experience = () => {
     }
     return (
         <div className="" id="experience">
-            <h1 className="text-center text-4xl py-14 mt-20 text-blue-500"> Experience</h1>
+      
+
+            <motion.h1
+                 initial={{ opacity: 0, y: -50 }}
+                 animate={{ opacity: 1, y: 0 }}
+                 whileHover={{ scale: 1.2, fontStyle: 'italic',  }}
+                 transition={{ duration: 1 }}
+                
+              >
+                  <h1 className="text-center text-4xl  font-bold py-14 mt-20 text-blue-500"> Experience</h1>
+
+              </motion.h1>
             <div className="md:flex  ">
                 <div className="md:w-5/12">
                     <Lottie options={animationOptions} />

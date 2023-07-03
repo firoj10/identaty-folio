@@ -16,7 +16,16 @@ const Contact = () => {
 
   return (
     <div className='py-9 ' id='contact'>
-      <h1 className="text-center text-4xl py-14 mt-20 text-blue-500 justify-end "> Contact</h1>
+    
+      <motion.h1
+                 initial={{ opacity: 0, y: -50 }}
+                 animate={{ opacity: 1, y: 0 }}
+                 whileHover={{ scale: 1.2, fontStyle: 'italic',  }}
+                 transition={{ duration: 1 }}
+                
+              >
+                     <h1 className="text-center text-4xl py-14 mt-20 font-bold text-blue-500 justify-end "> Contact</h1>
+              </motion.h1>
       <div className='   lg:flex items-center'>
         {/* <div className='grid grid-cols-1 md:grid-cols-2  '> */}
         <div className='flex-1 md:mt-[143px] pr-10  lg:text-centar'>
@@ -112,9 +121,9 @@ const Contact = () => {
               whileTap={{ scale: 0.9 }}
               className="cardd"
             >
-                    <a href="https://web.facebook.com/mdfirojhasann/"><FaStackOverflow aria-label='facebook'
+                    <FaStackOverflow aria-label='facebook'
               className='social-icon rounded-lg mx-1 lg:mx-3 '
-              style={{ width: '50px', height: '50px', color: '#ffffff', padding: '10px', backgroundColor: '#1877f2' }} /></a>
+              style={{ width: '50px', height: '50px', color: '#ffffff', padding: '10px', backgroundColor: '#1877f2' }} />
             </motion.div>
 
 
