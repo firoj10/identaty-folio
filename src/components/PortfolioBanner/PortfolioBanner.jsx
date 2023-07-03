@@ -49,8 +49,6 @@ const PortfolioBanner = () => {
           >
            Download Resume
           </a></button>
-          {/* <button onClick={handleDownload}>Download Resume</button> */}
-         
         </div>
       </div>
       <div className="flex-1">

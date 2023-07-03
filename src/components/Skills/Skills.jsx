@@ -14,16 +14,11 @@ function Skills() {
         'Javascript',
         'CSS',
         'React',
-        'Docker',
-        'Next JS',
         'Bootstrap',
-        'Go',
-        'Typescript',
         'Figma',
         'MongoDB',
         'Tailwind',
         'MySQL',
-        'PostgreSQL',
         'MaterialUI',
         'Firebase'
     ]

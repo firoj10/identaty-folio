@@ -112,7 +112,7 @@ const ProjectSection = () => {
                 <div className="bg-gray-100 px-4 py-2 flex justify-between items-center">
                   {project.clint && (
                     <a
-                      href={project.code}
+                      href={project.clint}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="00 hover:underline font-bold"
@@ -131,7 +131,7 @@ const ProjectSection = () => {
                   {project.server && (
 
                     <a
-                      href={project.demo}
+                      href={project.server}
                       target="_blank"
                       rel="noopener noreferrer"
                       className=" hover:underline font-bold"
