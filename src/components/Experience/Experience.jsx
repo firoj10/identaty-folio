@@ -65,7 +65,7 @@ const Experience = () => {
                             <div className=" text-left  md:ps-10">
                                 <p className="text-lg">Jan 2022</p>
                                 <h3 className="text-xl">React Developer</h3>
-                                <h4 className="text-xl">Collage project</h4>
+                                <h4 className="text-xl">Collage projects</h4>
                             </div>
                         </div>
                     </motion.div>
@@ -83,7 +83,7 @@ const Experience = () => {
                             <div className=" text-left  md:ps-10">
                                 <p className="text-lg">Jan 2023</p>
                                 <h3 className="text-xl">React Developer</h3>
-                                <h4 className="text-xl">Fiverr - Freelance </h4>
+                                <h4 className="text-xl">Fiverr - Freelanceing</h4>
                             </div>
                         </div>
                     </motion.div>

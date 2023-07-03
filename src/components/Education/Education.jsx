@@ -45,7 +45,7 @@ const Education = () => {
                         </div>
                         <div className=" text-left  md:ps-10">
                             <p className="text-lg">Jan 2018-2022</p>
-                            <h3 className="text-xl">computer science and technology</h3>
+                            <h3 className="text-xl">computer science and technology(diploma)</h3>
                             <h4 className="text-xl">Thakurgaon Polytechnic Institute</h4>
                         </div>
                     </div>

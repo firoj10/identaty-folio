@@ -42,7 +42,7 @@ const PortfolioBanner = () => {
      
           <button > <a
           className="btn btn-outline text-blue-500 md:text-[20px] text-bold m-2"
-            href='https://drive.google.com/file/d/1Reu9vvqW0YaGDBHjU8NVZrtg6Pb08Pk7/view?usp=sharing'
+            href='https://drive.google.com/file/d/1WItcetVtWvReUwt0BKselhAZ3DpD5fl8/view?usp=sharing'
             download='resume'
             target='_blank'
             rel='noreferrer'
