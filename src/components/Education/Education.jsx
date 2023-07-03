@@ -19,7 +19,7 @@ const Education = () => {
             <motion.h1
                  initial={{ opacity: 0, y: -50 }}
                  animate={{ opacity: 1, y: 0 }}
-                 transition={{ duration: 2 }}
+                 transition={{ duration: 6 }}
               >
                   <h1 className="text-center text-4xl py-14 mt-20 text-blue-500 md:my-20"> Education</h1>
 
@@ -29,7 +29,13 @@ const Education = () => {
                     <Lottie options={animationOptions} />
                 </div>
                 <div className='md:w-7/12'>
-                <div className=" flex items-center border bg-slate-200 text-blue-500  hover:bg-blue-500 outline-0   hover:text-white  p-5 m-3 rounded-md ">
+              
+                    <motion.div
+                        initial={{ opacity: 0, x: -100 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 6 }}
+                    >
+                     <div className=" flex items-center border bg-slate-200 text-blue-500  hover:bg-blue-500 outline-0   hover:text-white  p-5 m-3 rounded-md ">
                         <div className="">
                             <div className="rounded-[50%] w-[55px] h-[55px] text-slate-200 bg-blue-500 flex me-2    items-center justify-center">
                                 <img src={img} alt="" className="w-[40px]" />
@@ -41,7 +47,15 @@ const Education = () => {
                             <h4 className="text-xl">Thakurgaon Polytechnic Institute</h4>
                         </div>
                     </div>
-                <div className=" flex items-center border bg-slate-200 text-blue-500  hover:bg-blue-500 outline-0   hover:text-white  p-5 m-3 rounded-md ">
+
+
+                    </motion.div>
+                    <motion.div
+                        initial={{ opacity: 0, y: -100 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 6 }}
+                    >
+                   <div className=" flex items-center border bg-slate-200 text-blue-500  hover:bg-blue-500 outline-0   hover:text-white  p-5 m-3 rounded-md ">
                         <div className="">
                             <div className="rounded-[50%] w-[55px] h-[55px] text-slate-200 bg-blue-500 flex me-2    items-center justify-center">
                                 <img src={img} alt="" className="w-[40px]" />
@@ -53,7 +67,15 @@ const Education = () => {
                             <h4 className="text-xl">Birgor Dehatta Tecnical High School</h4>
                         </div>
                     </div>
-                <div className=" flex items-center border bg-slate-200 text-blue-500  hover:bg-blue-500 outline-0   hover:text-white  p-5 m-3 rounded-md ">
+
+
+                    </motion.div>
+                    <motion.div
+                        initial={{ opacity: 0, x: -100 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 8 }}
+                    >
+                    <div className=" flex items-center border bg-slate-200 text-blue-500  hover:bg-blue-500 outline-0   hover:text-white  p-5 m-3 rounded-md ">
                         <div className="">
                             <div className="rounded-[50%] w-[55px] h-[55px] text-slate-200 bg-blue-500 flex  me-2   items-center justify-center">
                                 <img src={img} alt="" className="w-[40px]" />
@@ -65,6 +87,11 @@ const Education = () => {
                             <h4 className="text-xl">Chowrangi high school</h4>
                         </div>
                     </div>
+
+
+                    </motion.div>
+              
+               
                     
 
                 </div>

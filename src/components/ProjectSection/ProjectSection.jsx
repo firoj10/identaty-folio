@@ -43,20 +43,20 @@ const ProjectSection = () => {
     },
     {
       id: 1,
-      projectName: 'Ayla Networks',
-      projectDesc: 'This project about Simplifying the Development of Smart Home & IoT Solutions. ',
-      tags: ['React', 'SAAS', 'React Bootstrap'],
-      clint: 'https://github.com/firoj10/clone-bistro-boss',
-      demo: 'https://www.aylanetworks.com/',
+      projectName: 'Carrer Home',
+      projectDesc: ' the featured section will show the first four job cards containing on the Apply Now button',
+      tags: ['React', 'Bootstrap ', 'css'],
+      clint: 'https://github.com/firoj10/carrer-hub-project',
+      demo: ' https://dreamy-cajeta-734c50.netlify.app/',
       image: img4
     },
     {
       id: 1,
-      projectName: 'Ayla Networks',
-      projectDesc: 'This project about Simplifying the Development of Smart Home & IoT Solutions.',
-      tags: ['React', 'SAAS', 'React Bootstrap'],
-      clint: 'https://github.com/firoj10/clone-bistro-boss',
-      demo: 'https://www.aylanetworks.com/',
+      projectName: 'Knowledge Cafe',
+      projectDesc: 'A blog website. Here blogs can be viewed and selected and counted  . Apply Now button',
+      tags: ['React', 'css', ' Bootstrap'],
+      clint: 'https://github.com/firoj10/a8-knowledge-cafe',
+      demo: ' https://cheery-gumption-37308e.netlify.app/',
       image: img5
     },
 
@@ -113,7 +113,7 @@ const ProjectSection = () => {
                         <span>Client</span>
 
                         <FiCode
-                          style={{ width: '50px', height: '50px', padding: '10px' }}
+                          style={{ width: '30px', height: '30px', padding: '3px' }}
                         />
 
                       </div>
@@ -130,7 +130,7 @@ const ProjectSection = () => {
                       <div className='flex justify-between items-center  text-blue-500'>
                         <span>  Server </span> <FiCode
 
-                          style={{ width: '50px', height: '50px', padding: '10px' }}
+                          style={{ width: '30px', height: '30px', padding: '3px' }}
                         />
                       </div>
                     </a>
@@ -148,7 +148,7 @@ const ProjectSection = () => {
 
                         <FiPlay
 
-                          style={{ width: '50px', height: '50px', padding: '10px' }}
+                          style={{ width: '30px', height: '30px', padding: '3px' }}
                         />
                       </div>
                     </a>

@@ -1,8 +1,19 @@
-import img from './../../assets/22.png';
+import img from './../../assets/55.png';
+// import resume from './../../assets/';
 import { Typewriter } from 'react-simple-typewriter';
 
 const PortfolioBanner = () => {
+  // const handleDownload = () => {
+  //   const element = document.createElement('a');
+  //   const resumeUrl = 'https://drive.google.com/file/d/1Reu9vvqW0YaGDBHjU8NVZrtg6Pb08Pk7/view?usp=sharing'; // Replace with the actual path to your resume file
+  //   element.setAttribute('href', resumeUrl);
+  //   element.setAttribute('download', 'firoj-resume.pdf'); // Replace with the desired filename for your resume
 
+  //   element.style.display = 'none';
+  //   document.body.appendChild(element);
+  //   element.click();
+  //   document.body.removeChild(element);
+  // };
 
   return (
     <div className="md:flex items-center md:pt-[200px]  py-10 px-2">
@@ -40,6 +51,7 @@ const PortfolioBanner = () => {
           >
            Download Resume
           </a></button>
+          {/* <button onClick={handleDownload}>Download Resume</button> */}
          
         </div>
       </div>

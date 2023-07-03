@@ -65,7 +65,14 @@ const Blog = () => {
         <div className='' id='blog'>
        <>
     <div className=' py-20'>
-        <h2 className='text-4xl text-center  py-14 mt-20 text-blue-500 font-bold'>Blog</h2>
+     
+        <motion.h1
+                   initial={{ opacity: 0, y: -50 }}
+                   animate={{ opacity: 1, y: 0 }}
+                   transition={{ duration: 2 }}
+              >
+                  <h2 className='text-4xl text-center  py-14 mt-20 text-blue-500 font-bold'>Blog</h2>
+              </motion.h1>
     </div>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-start">
       {projectsToShow.map((project) => (
@@ -79,7 +86,7 @@ const Blog = () => {
         className="cardd"
       >
         <div key={project.id} className="bg-white rounded shadow">
-          <img src={project.image || img} alt="Project" className="h-48 w-full object-cover rounded-t" />
+          <img src={project.image || html} alt="Project" className="h-48 w-full object-cover rounded-t" />
           <div className="p-4">
             <h3 className="text-lg font-bold mb-2">{project.title}</h3>
             <p className="text-gray-600 mb-4">{project.projectDesc}</p>
